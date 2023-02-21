@@ -1,0 +1,106 @@
+tokenizer
+ void putback(Token token){
+    outstanding Token = true;
+    putbackToken = token;
+ }
+ Token getToken() {
+    if(outstandingToken){
+        outstandingToken = false;
+        return putbackToken;
+    }
+
+ private :
+ bool outstandingToken;
+ Token putbackToken;
+}
+ tokenizer::Tokenizer(std::string fileName):
+    pushbackToken{0,0},....,{}
+
+recursive list
+1.null list
+()
+let p be a null list
+is_null(p) return true
+2.atom it is a name
+cs315
+let p be atom list
+is_atom will return true
+3.recursive list
+(something in it a(cs315 b) c)
+
+int numNodes(list p ){
+//pre-condition p is either
+//a null list or it is list of list
+assert(!is_atom(p))
+if (is_null(p))
+    return 0;
+return 1+numNode(cdr(p));
+}
+    1+numDode(cdr(cdr(p)))
+        1+numNode(cdr(cdr(cdr(p))))
+
+int numAtomsAtTheTop(list p){
+//p could be any list, null, atom or a list of list
+if(is_null(p))
+ return 0;
+ if is_atom
+    return 1;
+ return 1+numAtomAtTop()
+ if is_atom(carp)
+    return1+numAtom(cdr(p))
+ return numAtom(cdr(p));
+}
+
+list nthNode(list p, int n){
+//p is not an atom
+//the function returns the nth
+//node of p the first
+//node is at position 1
+ assert(!is_atom(p));
+ assert(n>0);
+ if (is_null(p))
+    return p;
+ if(n==1)
+    return p;
+ return nthNode(cde(p), n-1);
+ 
+}
+
+recursive lab
+int numAtoms(list p){
+if is_null(p)
+    return 0;
+if (is_atom(car(p)))
+    return 1+numAtoms(cdr(p))
+return numAtoms(cdr(p))
+}
+
+bool find(list p, list q){
+    if(is_null(p))
+        return false;
+    if(eq(car(p),q))
+        return true;
+    return find(cdr(p),q)
+}
+
+bool areEqual(list p, list q){
+    if(is_null(p))
+        return true;
+    if(!eq(car(p), car(q)))
+        return false;
+    return areEqual(cdr(p), cdr(q));
+}
+bool evenNumAtoms(list (p)){
+    if(is_null(p))
+        return true;
+    if(is_null(cdr(p)))
+        return false;
+    return evenNumAtoms(cdr(cdr(p)));
+}
+bool everyOtherAtom(list p, list q){
+    if(is_null(p))
+        return true;
+    if(!eq(car(p)), car(cdr(q)))
+        return false
+    return everyOtherAtom(cdr(p), cdr(cdr(q)));
+}

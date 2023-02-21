@@ -1,0 +1,46 @@
+<div id="topTitle">
+    <div id="topTitle">&nbsp;</div>
+    <table style="border-collapse: collapse; width: 729px; height: 230px;" border="0">
+        <tbody>
+            <tr style="height: 29px; border-bottom: 1px solid black;">
+                <td class="mibLeft" style="width: 23.330609%; height: 29px;">Ali A. Kooshesh</td>
+                <td class="mibRight" style="width: 76.529791%; height: 29px;">ali.kooshesh&nbsp;at&nbsp;sonoma&nbsp;dot&nbsp;edu</td>
+            </tr>
+            <tr style="height: 29px; border-style: none; border-bottom: 1px solid black;">
+                <td class="mibLeft" style="width: 23.330609%; height: 29px;">Office Hours</td>
+                <td class="mibRight" style="width: 76.529791%; height: 29px;">
+                    <p>Office Hours continue to be via Zoom for the entire semester.</p>
+                    <p>Mondays and Thursdays:&nbsp; 1:00 PM -- 2:30 PM</p>
+                    <p>Zoom link: <span>&nbsp;<a href="https://sonomastate.zoom.us/j/81977615389" target="_blank" rel="noopener" data-v-3392e92e="" aria-label="https://SonomaState.zoom.us/j/81977615389" aria-labelledby="view-registration">https://SonomaState.zoom.us/j/81977615389</a></span></p>
+                    <p>Other times by appointment</p>
+                </td>
+            </tr>
+            <tr style="height: 29px; border-bottom: 1px solid black;">
+                <td class="mibLeft" style="width: 23.330609%; height: 29px;">Lectures</td>
+                <td class="mibRight" style="width: 76.529791%; height: 29px;">
+                    <p><em>Sections&nbsp; 1 &amp; 3 MW 9:30 AM &mdash; 10:45 AM in Stevenson 1101</em></p>
+                </td>
+            </tr>
+            <tr style="height: 29px; border-bottom: 1px solid black;">
+                <td class="mibLeft" style="width: 23.330609%; height: 29px;">Lab section 02</td>
+                <td class="mibRight" style="width: 76.529791%; height: 29px;">
+                    <p><em>&nbsp;W 1:00 PM -- 3:50 PM in Darwin 25</em></p>
+                </td>
+            </tr>
+            <tr style="height: 29px; border-bottom: 1px solid black;">
+                <td class="mibLeft" style="width: 23.330609%; height: 29px;">Lab section 04</td>
+                <td class="mibRight" style="width: 76.529791%; height: 29px;">
+                    <p><em>&nbsp;W &nbsp;4:00 PM -- 6:50 PM in Darwin 25</em></p>
+                </td>
+            </tr>
+            <tr style="height: 29px; border-bottom: 1px solid black;">
+                <td style="width: 23.330609%; height: 29px;"><strong>&nbsp;</strong>Tutoring</td>
+                <td style="width: 76.529791%; height: 29px;"><span>&nbsp;Matthew Berlin</span></td>
+            </tr>
+            <tr style="height: 56px; border-bottom: 1px solid black;">
+                <td style="width: 23.330609%; height: 56px;"></td>
+                <td style="width: 76.529791%; height: 56px;">Matthew's tutoring hours and location will be posted here.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
